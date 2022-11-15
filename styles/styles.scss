@@ -56,24 +56,29 @@ section{
 
 .sec1{
     display: none;
-    transform: translateY(0) scale(1); 
+    transform: translateY(0) scale(1);
+    background-color: red;
 }
 
 .sec2{
     display: none;
-    transform: translateY(0) scale(1); 
+    transform: translateY(0) scale(1);
+    background-color: green; 
 }
 .sec3{
     display: none;
-    transform: translateY(0) scale(1); 
+    transform: translateY(0) scale(1);
+    background-color: yellow; 
 }
 .sec4{
     display: none;
-    transform: translateY(0) scale(1); 
+    transform: translateY(0) scale(1);
+    background-color: salmon; 
 }
 .sec5{
     display: none;
-    transform: translateY(0) scale(1); 
+    transform: translateY(0) scale(1);
+    background-color: purple; 
 }
 
 // controls
