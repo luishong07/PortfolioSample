@@ -13,7 +13,7 @@ function PageTransition(){
             // console.log(currentBtn) 
             this.className += ' active-btn'
         })
-    }
+    } 
     //sections active class
     allSections.addEventListener('click',(e)=>{
         // console.log(e.target)
