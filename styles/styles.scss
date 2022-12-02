@@ -362,10 +362,9 @@ section{
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            // opacity: 0;
-            // scale: 0;
-            // transform: scale(0);
-            // transition: all .4s ease-in-out;
+            opacity: 0;
+            transform: scale(0);
+            transition: all .4s ease-in-out;
             h3{
                 font-size: 1.5rem;
                 color: var(--color-white);
@@ -380,7 +379,7 @@ section{
                     background-color: var(--color-primary);
                     border-radius: 50%;
                     width: 50px;
-                    height: 50px;
+                    height: 50px; 
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -390,9 +389,7 @@ section{
                     i{
                         font-size: 1.5rem;
                         color: var(--color-white);
-                        margin:  1rem;
-
-                        
+                        margin: 0 1rem;
                     }
                     &:hover{
                         background-color: var(--color-white);
@@ -407,10 +404,10 @@ section{
     }
 }
 
-.portfolio-item:hover{
-    // opacity: 1;
-    // transform: scale(1);
-    background-color: red;
+.portfolio-item:hover .hover-items{
+    opacity: 1;
+    transform: scale(1);
+    // background-color: red;
 }
 //independent components
 .timeline{
