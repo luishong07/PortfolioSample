@@ -50,11 +50,13 @@ a{
 }
 header{
     min-height: 100vh;
+    font-family: 'Popping', sans-serif;
     color: var(--color-white);
     overflow: hidden;
-    // @media screen and (max-width: 610px) {
-    //     min-height: 100vh;
-    // }
+    @media screen and (max-width: 600px) {
+        // min-height: 100vh;
+        // color: red;
+    }
 } 
 section{
     min-height: 100vh;
@@ -177,7 +179,7 @@ section{
 .header-content{
    display: grid;
    grid-template-columns: repeat(2, 1fr);
-   height: 100%;
+   min-height: 100vh;
    .left-header{
     display: flex;
     align-items: center;
