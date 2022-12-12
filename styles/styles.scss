@@ -193,7 +193,9 @@ section{
         left: 0;
         top: 0;
         z-index: -1;
-        clip-path: polygon(0 0, 48% 0, 91% 100%, 0% 100%);
+        // clip-path: polygon(0 0, 48% 0, 91% 100%, 0% 100%);
+        clip-path: polygon(35% 0, 66% 48%, 35% 100%, 0 100%, 0 0);
+
     }
     .image{
         border-radius: var(--br-sm-2);
@@ -298,6 +300,7 @@ section{
 }
 .about-stats{
     padding-bottom: 4rem;
+    
     .progress-bars{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -350,13 +353,30 @@ section{
             }
         }
     }
+
+    .skills{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 3rem;
+        margin-top: 2rem;
+        .skill{
+            position: relative;
+            border-radius: 15px;
+        }
+        img{
+            width: 100%;
+            height: 300px;
+            object-fit: contain;
+            border-radius: 15px;
+        }
+    }
 }
 
 .stat-title{
     text-transform: uppercase;
     font-size: 1.4rem;
     text-align: center;
-    padding: 3.5rem 0;  
+    padding: 2rem 0;  
     position: relative;
     &::before{
         content: '';
